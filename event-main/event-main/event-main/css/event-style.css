@@ -729,18 +729,24 @@ header nav ul li a {
 }
 /*# sourceMappingURL=index-style.css.map */
 
-}
-
 #events {
     background-color: rgb(65, 68, 223);
     color: white;
     height: 30vh;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 #past-events{
     display: flex;
-	flex-wrap: wrap;
+	
+    flex-direction: row;
 }
 .heading {
     font-family: 'poppins', serif;
@@ -757,8 +763,10 @@ header nav ul li a {
 }
 
 .flexbox {
+    padding: 3px;
+    margin-right: -20px;
+
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: center;
+    justify-content: center
 }
