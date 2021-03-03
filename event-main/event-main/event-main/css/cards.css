@@ -20,12 +20,11 @@
 }
 
 .card {
-    padding: 10px;
     cursor: pointer;
     width: 270px;
     height: 300px;
-    margin: 10px;
-    justify-content: center;
+    margin: 3%;
+    flex: 33.3%;
 }
 
 .front,
@@ -68,6 +67,7 @@
 
 .sm span{
   font-weight: 900;
+  border: 1px solid black;
 }
 
 .sm span:hover {
